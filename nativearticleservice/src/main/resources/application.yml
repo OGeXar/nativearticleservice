@@ -1,0 +1,15 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: nativearticleservice
+  data:
+    mongodb:
+      host: mongo
+      port: 27017
+      database: nativearticledb
+      username: admin
+      password: password      
+  jpa:
+    hibernate:
+      ddl-auto: update
